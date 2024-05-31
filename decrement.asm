@@ -1,0 +1,3 @@
+MOV BL,24H
+DEC BL
+HLT

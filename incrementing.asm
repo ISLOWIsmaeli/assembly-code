@@ -1,0 +1,3 @@
+MOV AX, 5679H
+INC AX
+HLT
