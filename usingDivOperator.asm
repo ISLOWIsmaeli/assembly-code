@@ -1,0 +1,9 @@
+;8 bit division
+MOV AX, 1389H
+MOV BL, 18H
+DIV BL
+;16 bit division
+MOV DX, 10004H
+MOV AX, 10004H
+MOV CX, 1234H
+DIV CX
