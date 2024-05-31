@@ -1,0 +1,9 @@
+MOV AX, 1235H
+MOV BX, 1234H
+JG ABC ;Jump to abc as ax>bx
+
+MOV CX,BX
+HLT
+
+ABC: MOV CX,AX
+HLT
