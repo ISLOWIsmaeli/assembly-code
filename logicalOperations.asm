@@ -1,0 +1,6 @@
+MOV AX, 45A8H
+MOV CX, 0E87H
+AND CX,AX
+OR CX,AX
+XOR CX,AX
+NOT AX                  
