@@ -2,10 +2,12 @@ ORG 100H   ;standard for writing 8086 programs
 
 ; Load the first number from memory address 1000H into AL
 MOV SI, 1000H  ; Set SI to point to offset 1000H
+MOV [SI],011H  ; store value in SI memory
 MOV AL, [SI]   ; Load the value at [SI] into AL
 
 ; Load the second number from memory address 1001H into BL
-MOV SI, 1001H  ; Set SI to point to offset 1001H
+MOV SI, 1001H  ; Set SI to point to offset 1001H  
+MOV [SI],010H
 MOV BL, [SI]   ; Load the value at [SI] into BL
 
 ; Add the two numbers
